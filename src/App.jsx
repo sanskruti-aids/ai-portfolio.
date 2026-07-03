@@ -6,8 +6,6 @@ import Experience from './components/Experience';
 import About from './components/About';
 import Skills from './components/Skills';
 import Education from './components/Education';
-import Certifications from './components/Certifications';
-import Achievements from './components/Achievements';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -36,12 +34,6 @@ function App() {
 
         {/* Academic Qualification Section */}
         <Education />
-
-        {/* Certification and Credentials Section */}
-        <Certifications />
-
-        {/* High-Signal Achievements Section */}
-        <Achievements />
 
         {/* Contact and Social Channels Section */}
         <Contact />

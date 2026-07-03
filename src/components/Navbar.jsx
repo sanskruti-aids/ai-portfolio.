@@ -15,8 +15,6 @@ const Navbar = () => {
     { name: 'About', target: 'about' },
     { name: 'Skills', target: 'skills' },
     { name: 'Education', target: 'education' },
-    { name: 'Certifications', target: 'certifications' },
-    { name: 'Achievements', target: 'achievements' },
     { name: 'Contact', target: 'contact' },
   ];
 
