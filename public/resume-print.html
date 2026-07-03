@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sanskruti Mete - Resume</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: #1e293b;
+      line-height: 1.5;
+      margin: 0;
+      padding: 40px;
+      font-size: 13.5px;
+      background-color: #ffffff;
+    }
+
+    /* Print settings optimization */
+    @page {
+      size: letter;
+      margin: 0.5in;
+    }
+    @media print {
+      body {
+        padding: 0;
+        color: #000;
+        font-size: 12px;
+      }
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+    }
+
+    h1, h2, h3, h4 {
+      margin: 0;
+      color: #0f172a;
+    }
+
+    a {
+      color: #0284c7;
+      text-decoration: none;
+    }
+
+    /* Header structure */
+    .header {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    .header h1 {
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+    }
+    .contact-info {
+      font-size: 13px;
+      color: #475569;
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .contact-info span {
+      display: inline-flex;
+      align-items: center;
+    }
+
+    /* Section structures */
+    .section {
+      margin-bottom: 20px;
+    }
+    .section-title {
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #0f172a;
+      border-bottom: 1.5px solid #cbd5e1;
+      padding-bottom: 3px;
+      margin-bottom: 10px;
+    }
+
+    /* Block items */
+    .item {
+      margin-bottom: 12px;
+    }
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-weight: 600;
+      font-size: 14px;
+    }
+    .item-title {
+      color: #0f172a;
+      font-weight: 750;
+    }
+    .item-subtitle-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+      color: #475569;
+      font-weight: 500;
+      margin-bottom: 4px;
+    }
+    .item-date {
+      color: #64748b;
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    /* Bullets */
+    ul {
+      margin: 4px 0 0 0;
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 4px;
+      color: #334155;
+    }
+    strong {
+      color: #0f172a;
+    }
+
+    /* Skills spacing */
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .skill-category {
+      font-size: 13px;
+      color: #334155;
+      margin-bottom: 4px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <div class="header">
+    <h1>Sanskruti Mete</h1>
+    <div class="contact-info">
+      <span>xa.sanskrutimete54@gmail.com</span>
+      <span>|</span>
+      <span>+91 8888590657</span>
+      <span>|</span>
+      <span>Pune, India</span>
+      <span>|</span>
+      <span><a href="https://github.com/sanskruti-aids" target="_blank">github.com/sanskruti-aids</a></span>
+      <span>|</span>
+      <span><a href="https://www.linkedin.com/in/sanskruti-mete-b3058034b/" target="_blank">linkedin.com/in/sanskruti-mete</a></span>
+    </div>
+  </div>
+
+  <!-- Objective Section -->
+  <div class="section">
+    <div class="section-title">Career Objective</div>
+    <div style="color: #334155;">
+      Motivated Artificial Intelligence and Data Science undergraduate seeking internship opportunities where I can apply my skills in Python, data analysis, and machine learning to solve real-world problems while continuously enhancing my technical expertise.
+    </div>
+  </div>
+
+  <!-- Work Experience Section -->
+  <div class="section">
+    <div class="section-title">Work Experience</div>
+    
+    <div class="item">
+      <div class="item-header">
+        <span class="item-title">Data Science Intern</span>
+        <span class="item-date">Feb 2026 - Present</span>
+      </div>
+      <div class="item-subtitle-row">
+        <span>Codveda Technologies</span>
+        <span>Virtual</span>
+      </div>
+      <ul>
+        <li>Performed Data Cleaning and Exploratory Data Analysis (EDA) on client datasets using Python and Pandas.</li>
+        <li>Built Machine Learning classification models such as Logistic Regression and Random Forest using the Iris dataset.</li>
+        <li>Developed a Sentiment Analysis model using Natural Language Processing (TF-IDF vectorizer and Naive Bayes classifier).</li>
+        <li>Visualized data insights using Matplotlib and Seaborn and documented projects systematically on GitHub.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <span class="item-title">Data Science Intern</span>
+        <span class="item-date">Jan 2026 - Feb 2026</span>
+      </div>
+      <div class="item-subtitle-row">
+        <span>Coding Samurai</span>
+        <span>Virtual</span>
+      </div>
+      <ul>
+        <li>Learned and applied data analysis and machine learning concepts using Python scripting.</li>
+        <li>Performed data cleaning, preprocessing, and statistical visualizations to analyze tabular datasets.</li>
+        <li>Built a sentiment analysis project to classify social media postings into positive, negative, and neutral sentiments.</li>
+        <li>Collaborated with technical mentors and gained practical exposure to real-world data science workflows.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <span class="item-title">Data Science Intern</span>
+        <span class="item-date">Jul 2025 - Aug 2025</span>
+      </div>
+      <div class="item-subtitle-row">
+        <span>Cognifyz Technologies</span>
+        <span>Virtual</span>
+      </div>
+      <ul>
+        <li>Worked on data analysis tasks leveraging Python, Pandas, and NumPy for structured processing.</li>
+        <li>Performed data cleaning and exploratory data analysis (EDA) to extract meaningful insights.</li>
+        <li>Created data visualizations using Matplotlib to demonstrate trends and target parameters.</li>
+        <li>Applied basic machine learning concepts and strengthened analytical problem-solving skills.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Projects Section -->
+  <div class="section">
+    <div class="section-title">Projects</div>
+
+    <div class="item">
+      <div class="item-header">
+        <span class="item-title">MAP – Multi-Agent AI Automation Platform</span>
+        <span class="item-date">Mar 2026 - Jun 2026</span>
+      </div>
+      <ul>
+        <li>Architected a distributed system decomposing complex tasks into subtasks executed by specialized AI agents: Planner, Executor (ReAct loop), Analyzer, and Memory agents.</li>
+        <li>Integrated LangGraph for stateful agent orchestration with FAISS/Chroma vector memory; circuit-breaker Fallback Engine switches between Gemini API and local BentoML (Mistral7B).</li>
+        <li>Built Redis-backed Celery worker pool with priority queues, Prometheus + Grafana monitoring, and Nginx-proxied Docker services; real-time task streaming via WebSocket and SSE.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <span class="item-title">BookEase (appointment-app) – FastAPI App</span>
+        <span class="item-date">May 2026</span>
+      </div>
+      <ul>
+        <li>Developed a full-stack appointment booking platform during the Odoo Hackathon using FastAPI, SQLite, Jinja2 templates, and Stripe SDK.</li>
+        <li>Implemented secure authentication, online booking engines, Stripe checkout payments, provider slots management, and responsive dashboards.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <span class="item-title">Student Performance Prediction</span>
+        <span class="item-date">Jan 2026</span>
+      </div>
+      <ul>
+        <li>Developed a machine learning model to predict student academic performance using Python.</li>
+        <li>Performed data preprocessing including handling missing values, encoding categorical variables, and evaluating accuracy and classification metrics.</li>
+        <li>Implemented and compared Logistic Regression and Decision Tree models, generating data charts using Matplotlib.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <span class="item-title">Smart Internship Matcher</span>
+        <span class="item-date">Oct 2025 - Nov 2025</span>
+      </div>
+      <ul>
+        <li>Participated in a hackathon to build a candidate-to-requirements matching system evaluating candidate skills against internship offerings.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Education Section -->
+  <div class="section">
+    <div class="section-title">Education</div>
+    
+    <div class="item">
+      <div class="item-header">
+        <span class="item-title">Bachelor of Engineering (B.E.), Artificial Intelligence & Data Science</span>
+        <span class="item-date">2023 - 2027</span>
+      </div>
+      <div class="item-subtitle-row">
+        <span>Shree Ramchandra College Of Engineering (Savitribai Phule Pune University)</span>
+        <span>Pune, India</span>
+      </div>
+      <div style="font-size: 13px; color: #334155; margin-top: 4px;">
+        <strong>1st Year:</strong> CGPA: 8.64/10 | <strong>2nd Year:</strong> CGPA: 9.86/10 | <strong>3rd Year:</strong> CGPA: 9.29/10 | <strong>Cumulative:</strong> CGPA: 9.26/10 (Ongoing)
+      </div>
+    </div>
+  </div>
+
+  <!-- Certifications & Extras Section -->
+  <div class="section">
+    <div class="section-title">Trainings, Certifications & Extra Details</div>
+    <ul>
+      <li><strong>Data Science with AI (Internshala Trainings):</strong> 8-week certified online training covering predictive analytics, data visualization, and model building. Scored 90% in final assessment, top performer. (Dec 2025 - Feb 2026)</li>
+      <li><strong>Deloitte Virtual Internship Program:</strong> Completed data analysis and business problem-solving modules.</li>
+      <li><strong>J.P. Morgan Quantitative Research:</strong> Virtual Experience covering default probability analysis and FICO bucketing.</li>
+      <li><strong>Oracle Database & SQL Certification:</strong> Database fundamentals and SQL queries.</li>
+      <li><strong>Hackathon Participation:</strong> Odoo Hackathon (BookEase platform design) and Smart Internship Matcher team challenge.</li>
+    </ul>
+  </div>
+
+  <!-- Technical Skills Section -->
+  <div class="section">
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-grid">
+      <div class="skill-category"><strong>Languages & Core:</strong> Python, SQL, TypeScript, JavaScript, Next.js, React, HTML5, CSS3</div>
+      <div class="skill-category"><strong>Data Science & AI:</strong> Pandas, NumPy, scikit-learn, Machine Learning, Data Cleaning, Model Evaluation, Matplotlib, Jupyter Notebook</div>
+      <div class="skill-category"><strong>Tools & Libraries:</strong> GitHub, Git, MS-Excel, Tailwind CSS</div>
+    </div>
+  </div>
+
+</body>
+</html>
