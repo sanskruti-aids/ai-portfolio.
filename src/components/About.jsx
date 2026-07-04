@@ -20,7 +20,7 @@ const About = () => {
     {
       title: "Building Real-World AI Projects",
       subtitle: "Hands-on ML & Data Science",
-      description: "Developed chest X-ray classifiers and customer clustering systems. Acquired expertise in Pandas, NumPy, Scikit-learn, and PyTorch.",
+      description: "Built Smart Internship Matcher — an AI-powered platform connecting students with industry opportunities, developed for Smart India Hackathon. Acquired expertise in Pandas, NumPy, Scikit-learn, and customer clustering systems.",
       year: "2024"
     },
     {

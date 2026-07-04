@@ -12,8 +12,8 @@ export const projects = [
     },
     tech: ["Python", "LangGraph", "Gemini API", "Celery", "Redis", "Docker", "Prometheus"],
     image: "/src/assets/images/stroke_prediction.png",
-    github: "https://github.com/sanskruti-aids",
-    demo: "https://github.com/sanskruti-aids"
+    github: "https://github.com/Yad4o/MAP",
+    demo: "https://github.com/Yad4o/MAP"
   },
   {
     id: 2,
@@ -28,8 +28,8 @@ export const projects = [
     },
     tech: ["Python", "Scikit-Learn", "Pandas", "Matplotlib", "Jupyter"],
     image: "/src/assets/images/sentiment_analytics.png",
-    github: "https://github.com/sanskruti-aids",
-    demo: "https://github.com/sanskruti-aids"
+    github: "https://github.com/sanskruti-aids/Student-Performance-Prediction",
+    demo: "https://github.com/sanskruti-aids/Student-Performance-Prediction"
   },
   {
     id: 3,
@@ -44,23 +44,23 @@ export const projects = [
     },
     tech: ["FastAPI", "SQLite", "Stripe API", "Jinja2", "Tailwind CSS"],
     image: "/src/assets/images/customer_segmentation.png",
-    github: "https://github.com/sanskruti-aids",
-    demo: "https://github.com/sanskruti-aids"
+    github: "https://github.com/Yad4o/odoo-appointment-app",
+    demo: "https://github.com/Yad4o/odoo-appointment-app"
   },
   {
     id: 4,
-    name: "Smart Internship Matcher",
-    problem: "Students struggle to find relevant internships that align with their specific skill levels and technology stacks.",
-    approach: "Participated in a technical hackathon team, developing candidates-to-requirements matching algorithm evaluating keyword embeddings.",
-    result: "Delivered a collaborative recommendation system prototype with optimized ranking matching student skills to descriptions.",
+    name: "Shopper Spectrum",
+    problem: "E-commerce businesses lack actionable insights into customer behavior, making it hard to personalize offers or predict churn.",
+    approach: "Built an end-to-end ML pipeline using RFM analysis and KMeans clustering to segment customers into 4 groups, paired with an item-based collaborative filtering recommendation engine using cosine similarity.",
+    result: "Delivered an interactive Streamlit dashboard enabling real-time customer segmentation prediction and top-5 product recommendations from e-commerce transaction data.",
     metrics: {
-      label: "Match Accuracy",
-      value: "85.2%",
-      dataset: "Skill Requirements Logs"
+      label: "Segmentation Accuracy",
+      value: "4 Segments",
+      dataset: "Online Retail Dataset"
     },
-    tech: ["Python", "Pandas", "Model Evaluation", "Hackathon Project"],
-    image: "/src/assets/images/pneumonia_detection.png",
-    github: "https://github.com/sanskruti-aids",
-    demo: "https://github.com/sanskruti-aids"
+    tech: ["Python", "Scikit-Learn", "Pandas", "Streamlit", "Matplotlib", "Seaborn", "Joblib"],
+    image: "/src/assets/images/shopper_spectrum.png",
+    github: "https://github.com/sanskruti-aids/shopper-spectrum",
+    demo: "https://github.com/sanskruti-aids/shopper-spectrum"
   }
 ];
