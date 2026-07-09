@@ -16,22 +16,6 @@ export const projects = [
     demo: "https://github.com/Yad4o/MAP"
   },
   {
-    id: 2,
-    name: "Student Performance Prediction",
-    problem: "Academic failure and dropping out are hard to detect early enough to implement educational interventions.",
-    approach: "Developed a predictive pipeline in Python, handling encoding and missing data imputation, comparing Logistic Regression and Decision Tree architectures.",
-    result: "Built a classification model to categorize student grades and identify key failure risk markers with high statistical confidence.",
-    metrics: {
-      label: "Prediction Accuracy",
-      value: "89.4%",
-      dataset: "Student Grades Dataset"
-    },
-    tech: ["Python", "Scikit-Learn", "Pandas", "Matplotlib", "Jupyter"],
-    image: "/src/assets/images/sentiment_analytics.png",
-    github: "https://github.com/sanskruti-aids/Student-Performance-Prediction",
-    demo: "https://github.com/sanskruti-aids/Student-Performance-Prediction"
-  },
-  {
     id: 3,
     name: "BookEase – Full-Stack Booking Platform",
     problem: "Small appointment-based providers fail to manage bookings and secure online customer payments easily.",
@@ -62,5 +46,21 @@ export const projects = [
     image: "/src/assets/images/shopper_spectrum.png",
     github: "https://github.com/sanskruti-aids/shopper-spectrum",
     demo: "https://github.com/sanskruti-aids/shopper-spectrum"
+  },
+  {
+    id: 5,
+    name: "Vaccination Data Analysis",
+    problem: "Public health organizations need to analyze vaccination trends and demographics to optimize vaccine distribution and policy.",
+    approach: "Built an end-to-end data pipeline using Python for cleaning and normalizing 5 public datasets, loading into a MySQL database, and visualizing in Power BI.",
+    result: "Developed an interactive Power BI dashboard highlighting vaccination coverage, regional trends, and demographic correlations.",
+    metrics: {
+      label: "Data Analysis",
+      value: "Power BI",
+      dataset: "Public Health Datasets"
+    },
+    tech: ["Power BI", "MySQL", "Python", "Pandas", "DAX"],
+    image: "/src/assets/images/vaccination_data.png",
+    github: "https://github.com/sanskruti-aids/vaccination-data-analysis",
+    demo: "https://github.com/sanskruti-aids/vaccination-data-analysis"
   }
 ];
