@@ -1,3 +1,8 @@
+import strokePredictionImg from '../assets/images/stroke_prediction.png';
+import customerSegmentationImg from '../assets/images/customer_segmentation.png';
+import shopperSpectrumImg from '../assets/images/shopper_spectrum.png';
+import vaccinationDataImg from '../assets/images/vaccination_data.png';
+
 export const projects = [
   {
     id: 1,
@@ -11,7 +16,7 @@ export const projects = [
       dataset: "LangGraph Stateful Agents"
     },
     tech: ["Python", "LangGraph", "Gemini API", "Celery", "Redis", "Docker", "Prometheus"],
-    image: "/src/assets/images/stroke_prediction.png",
+    image: strokePredictionImg,
     github: "https://github.com/Yad4o/MAP",
     demo: "https://github.com/Yad4o/MAP"
   },
@@ -27,7 +32,7 @@ export const projects = [
       dataset: "FastAPI + Stripe Webhook"
     },
     tech: ["FastAPI", "SQLite", "Stripe API", "Jinja2", "Tailwind CSS"],
-    image: "/src/assets/images/customer_segmentation.png",
+    image: customerSegmentationImg,
     github: "https://github.com/Yad4o/odoo-appointment-app",
     demo: "https://github.com/Yad4o/odoo-appointment-app"
   },
@@ -43,7 +48,7 @@ export const projects = [
       dataset: "Online Retail Dataset"
     },
     tech: ["Python", "Scikit-Learn", "Pandas", "Streamlit", "Matplotlib", "Seaborn", "Joblib"],
-    image: "/src/assets/images/shopper_spectrum.png",
+    image: shopperSpectrumImg,
     github: "https://github.com/sanskruti-aids/shopper-spectrum",
     demo: "https://github.com/sanskruti-aids/shopper-spectrum"
   },
@@ -59,7 +64,7 @@ export const projects = [
       dataset: "Public Health Datasets"
     },
     tech: ["Power BI", "MySQL", "Python", "Pandas", "DAX"],
-    image: "/src/assets/images/vaccination_data.png",
+    image: vaccinationDataImg,
     github: "https://github.com/sanskruti-aids/vaccination-data-analysis",
     demo: "https://github.com/sanskruti-aids/vaccination-data-analysis"
   }
