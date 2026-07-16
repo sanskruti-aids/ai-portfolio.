@@ -3,6 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 import { Link } from 'react-scroll';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaEnvelope, FaChevronDown, FaDownload } from 'react-icons/fa';
+import ParticleBackground from './ParticleBackground';
 
 const Hero = () => {
   return (
@@ -10,9 +11,8 @@ const Hero = () => {
       id="home" 
       className="relative min-h-screen w-full flex items-center justify-center overflow-hidden bg-dark-bg px-6 pt-24"
     >
-      {/* Background Animated Blobs (optimized sizing for Lighthouse performance) */}
-      <div className="absolute top-1/4 left-1/4 w-60 h-60 bg-accent-blue/5 rounded-full blur-[80px] animate-blob"></div>
-      <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-accent-cyan/5 rounded-full blur-[90px] animate-blob animation-delay-2000"></div>
+      {/* Interactive Node/Particle Network Background */}
+      <ParticleBackground />
 
       <div className="max-w-7xl mx-auto w-full z-10 flex flex-col items-center justify-between min-h-[80vh]">
         <div className="flex flex-col-reverse lg:flex-row items-center justify-center w-full flex-1 gap-12 mt-8 lg:mt-0">
