@@ -10,7 +10,7 @@ export const certificates = [
     id: 2,
     name: "Data Science with AI (8-Week Training)",
     organization: "Internshala Trainings (Score: 90% - Top Performer)",
-    date: "Feb 2026",
+    date: "Dec 2025 – Feb 2026",
     link: "https://trainings.internshala.com"
   },
   {

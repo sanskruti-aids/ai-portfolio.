@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaTrophy, FaCode, FaTerminal, FaBookOpen } from 'react-icons/fa';
+import { FaTrophy } from 'react-icons/fa';
 
 const Achievements = () => {
   const achievements = [
@@ -14,27 +14,11 @@ const Achievements = () => {
     },
     {
       id: 2,
-      title: "LeetCode Algorithmic Practice",
-      organization: "LeetCode Profile",
-      description: "Solved over 250+ structures and algorithm problems with a focus on arrays, hash maps, trees, and dynamic programming.",
-      icon: FaTerminal,
-      color: "text-accent-blue bg-accent-blue/10 border-accent-blue/20"
-    },
-    {
-      id: 3,
-      title: "Kaggle Contributor",
-      organization: "Kaggle Data Competitions",
-      description: "Ranked in the top 15% in tabular playground series challenges, training regression models, ensemble tree frameworks (XGBoost, LightGBM).",
-      icon: FaCode,
+      title: "Odoo Hackathon Participant",
+      organization: "Odoo Hackathon",
+      description: "Designed and built BookEase, a full-stack appointment booking platform using FastAPI, SQLite, Stripe payments, and Jinja2 templates during the hackathon.",
+      icon: FaTrophy,
       color: "text-accent-cyan bg-accent-cyan/10 border-accent-cyan/20"
-    },
-    {
-      id: 4,
-      title: "Technical Writing & Blogging",
-      organization: "Medium & Dev.to Articles",
-      description: "Published technical writeups covering Deep Learning architectures (CNNs, ResNet) and exploratory data analysis methods.",
-      icon: FaBookOpen,
-      color: "text-accent-purple bg-accent-purple/10 border-accent-purple/20"
     }
   ];
 
