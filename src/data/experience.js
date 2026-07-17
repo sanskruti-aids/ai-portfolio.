@@ -1,6 +1,18 @@
 export const experiences = [
   {
     id: 1,
+    role: "Data Science with Gen AI Intern",
+    company: "Innovexis Pvt. Ltd.",
+    location: "Virtual",
+    duration: "Apr 2026 - Jul 2026",
+    bullets: [
+      "Developed data science and machine learning solutions, utilizing Python, Pandas, NumPy, and Scikit-learn.",
+      "Applied Generative AI concepts and AI-powered tools to solve practical business problems.",
+      "Performed comprehensive data preprocessing, EDA, and feature engineering, and evaluated predictive models using appropriate metrics."
+    ]
+  },
+  {
+    id: 2,
     role: "Data Science Intern",
     company: "Codveda Technologies",
     location: "Virtual",
@@ -13,7 +25,7 @@ export const experiences = [
     ]
   },
   {
-    id: 2,
+    id: 3,
     role: "Data Science Intern",
     company: "Coding Samurai",
     location: "Virtual",
@@ -25,7 +37,7 @@ export const experiences = [
     ]
   },
   {
-    id: 3,
+    id: 4,
     role: "Data Science Intern",
     company: "Cognifyz Technologies",
     location: "Virtual",

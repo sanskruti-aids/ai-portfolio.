@@ -50,7 +50,7 @@ export const projects = [
     tech: ["Python", "Scikit-Learn", "Pandas", "Streamlit", "Matplotlib", "Seaborn", "Joblib"],
     image: shopperSpectrumImg,
     github: "https://github.com/sanskruti-aids/shopper-spectrum",
-    demo: "https://github.com/sanskruti-aids/shopper-spectrum"
+    demo: "https://shopper-spectrum-kwt3cnfq8xnp2opuddvjan.streamlit.app/"
   },
   {
     id: 5,
@@ -67,5 +67,21 @@ export const projects = [
     image: vaccinationDataImg,
     github: "https://github.com/sanskruti-aids/vaccination-data-analysis",
     demo: "https://github.com/sanskruti-aids/vaccination-data-analysis"
+  },
+  {
+    id: 6,
+    name: "Bird Species Observation Analysis",
+    problem: "Conservationists lack integrated, accessible visualizations for tracking bird species diversity and environmental trends across forest and grassland habitats.",
+    approach: "Developed a Python pipeline to merge and clean US national park datasets, generated automated EDA charts, and built an interactive Streamlit dashboard.",
+    result: "Delivered actionable insights on species diversity, temporal trends, and environmental correlations to support data-driven conservation efforts.",
+    metrics: {
+      label: "Data Visualization",
+      value: "10+ Charts",
+      dataset: "National Parks Data"
+    },
+    tech: ["Python", "Pandas", "Streamlit", "Data Cleaning", "EDA"],
+    image: customerSegmentationImg,
+    github: "https://github.com/sanskruti-aids/bird-species-analysis",
+    demo: "https://bird-species-analysis-dn3hkoxlcazch3xpyqi2av.streamlit.app/"
   }
 ];
